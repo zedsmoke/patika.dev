@@ -1,0 +1,28 @@
+--SELECT first_name From actor
+--UNION
+--SELECT first_name FROM customer;
+
+
+--SELECT first_name From actor
+--INTERSECT
+--SELECT first_name FROM customer;
+
+
+--SELECT first_name From actor
+--EXCEPT ALL
+--SELECT first_name FROM customer;
+
+
+--SELECT first_name From actor
+--UNION ALL
+--SELECT first_name FROM customer;
+
+
+--SELECT first_name From actor
+--INTERSECT ALL
+--SELECT first_name FROM customer;
+
+
+SELECT first_name From actor
+EXCEPT ALL
+SELECT first_name FROM customer;
